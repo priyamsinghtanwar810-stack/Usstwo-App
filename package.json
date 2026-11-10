@@ -1,0 +1,17 @@
+{
+  "name": "ustwo-android",
+  "version": "1.0.0",
+  "private": true,
+  "description": "UsTwo private couple app Android build project",
+  "scripts": {
+    "copy-web": "node -e \"require('fs').cpSync('www','www',{recursive:true})\"",
+    "android:sync": "cap sync android"
+  },
+  "dependencies": {
+    "@capacitor/android": "^7.4.3",
+    "@capacitor/core": "^7.4.3"
+  },
+  "devDependencies": {
+    "@capacitor/cli": "^7.4.3"
+  }
+}

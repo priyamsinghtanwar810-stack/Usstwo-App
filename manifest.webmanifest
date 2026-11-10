@@ -1,0 +1,10 @@
+{
+  "name": "UsTwo \u2014 Couple App",
+  "short_name": "UsTwo",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#100b13",
+  "theme_color": "#160d19",
+  "description": "A private little space for two hearts.",
+  "icons": []
+}
